@@ -1,0 +1,145 @@
+body{
+	color: green;
+	background-color: #B9B1AF;
+	text-decoration: none;
+}
+
+/*barra de navegação*/
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  display:inline-block;
+  width: 100%;
+  border-radius: 25px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 25px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+  border-radius: 25px;
+}
+
+#valor{
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 25px;
+  margin-right: 30px;
+}
+
+#valor{
+  background-color: #04AA6D;
+  color: white;
+  border-radius: 25px;
+}
+
+#valor:hover{
+  background-color: red;
+  color: black;
+}
+
+/*Corpo do site*/
+h2{
+	padding: 0px;
+	margin: 0px;
+}
+.config-body{
+	margin: 5px;
+	width: 9%;
+	padding: 40px;
+	display: inline-block;
+	border-radius: 5px;
+	background-color: #E1DCDA;
+}
+
+.config-body:hover {
+	box-shadow: 0 0 5px 3px rgba(0, 140, 186, 0.5);
+}
+
+.imagem-body{
+	border-radius: 4px;
+	width: 125px;
+	
+}
+
+.form-group{
+	color: black;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.name-body{
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 4px;
+}
+
+.name-func{
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+.information-body{
+	margin-top: 4px;
+	display: flex;
+
+}
+
+.format{
+	padding: -5px;
+	
+}
+
+.button-delete {
+	transition-duration: 0.4s;
+	background-color: red;
+	margin-top: 3px;
+}
+
+.button-delete:hover {
+	background-color: #4CAF50; /* Green */
+	color: white;
+}
+
+.button-relatorio{
+	transition-duration: 0.4s;
+	background-color: green;
+	margin-top: 3px;
+}
+
+.button-relatorio:hover {
+	background-color: white; /* Green */
+	color: black;
+}
+/*rodape*/
+#rodape{
+	border-radius: 5px;
+	text-align: center;
+	margin-top: 2px;
+	background-color: #E1DCDA;
+	font-size: 13px;
+	color: black;
+	font-weight: bold;
+}
